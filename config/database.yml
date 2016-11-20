@@ -19,7 +19,3 @@ development:
 test:
   <<: *default
   database: lens_api_test
-
-production:
-  <<: *default
-  database: lens_api_production
