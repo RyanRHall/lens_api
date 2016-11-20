@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: annotations
+#
+#  id         :integer          not null, primary key
+#  article_id :integer
+#  lens_id    :integer
+#  ref_text   :string
+#  comment    :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  article_id: 1
+  lens_id: 1
+  ref_text: MyString
+  comment: MyString
+
+two:
+  article_id: 1
+  lens_id: 1
+  ref_text: MyString
+  comment: MyString
